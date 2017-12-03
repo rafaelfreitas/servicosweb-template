@@ -1,0 +1,193 @@
+/* Author: Rafael Freitas
+www.rafaelfreitas.info
+@rafaelbfreitas */
+
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:700,800,900');
+
+body {
+  margin: 0;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+/* box */
+.box{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+/* navbar */
+
+.navbar-brand {
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+.nav-link {
+  font-size: 1.2em;
+}
+
+/* banner */
+#banner {
+  height: 100vh;
+  padding: 0 2.5em;
+  background: linear-gradient(rgba(32, 93, 173, 0.8), rgba(0, 0, 0,0.4)), url('../img/background.jpg') fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#banner h1 {
+  font-size: 5em;
+  margin-bottom: 0.5em;
+  font-style: normal;
+  font-weight: 800;
+}
+
+#banner p {
+  color: #F1D302;
+}
+
+#banner .card {
+  border-radius: 0;
+  background-color: transparent;
+  border: 0.3em solid whitesmoke;
+}
+
+.heading{
+  padding-bottom: 2em;
+}
+
+.form-control {
+  border-radius: 0;
+  background-color: whitesmoke;
+}
+
+#banner .btn {
+  border-radius: 3em;
+  padding: 0.5em 2.5em;
+  background-color: #F1D302;
+  color: #2A2B2A;
+}
+
+#banner .btn:hover{
+  color: #F1D302!important;
+  background-color: #2A2B2A;
+}
+
+/* titles */
+.title-underline{
+  width: 19em;
+  border: 0.25em solid #F1D302;
+  margin: 0 auto 3em auto;
+}
+
+/* habilidades */
+#skills .margin {
+  margin-bottom: 2em;
+}
+
+#skills {
+  padding: 2em;
+  background-color: #205dadcc;
+  color: #fff;
+}
+
+#skills .fa {
+  font-size: 4em;
+  color: #F1D302;
+}
+
+/* prices */
+#prices {
+  padding: 2em;
+  background: linear-gradient(rgba(32, 93, 173, 0.8), rgba(0, 0, 0,0.4)), url('../img/background2.jpeg') fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#prices .title-underline{
+  border-color: #F1D302;
+}
+
+#prices .title {
+  color: #fff;
+}
+
+#prices .card {
+  margin-bottom: 2em;
+  padding: 2em 1em;
+}
+
+#prices .money {
+  font-size: 2em;
+}
+
+#prices .card a{
+  background-color: #F1D302;
+  padding: 0.5em 1em;
+  font-size: 1.2em;
+}
+
+#prices .card a:hover{
+  color: #F1D302!important;
+  background-color: #2A2B2A;
+}
+
+#prices hr {
+  background-color: #775253;
+  height: 0.1em;
+}
+
+/* time */
+#team {
+  padding: 2em;
+  background-color: #205dadcc;
+  color: #fff;
+}
+
+#team .card {
+  color: #2A2B2A;
+  margin-bottom: 2em;
+}
+
+#team a {
+  background-color: #F1D302;
+  padding: 0.5em 1em;
+  margin-top: 1em;
+  font-size: 1.2em;
+}
+
+#team a:hover{
+  color: #F1D302!important;
+  background-color: #2A2B2A;
+}
+
+/* footer */
+#footer {
+  padding: 2em;
+}
+
+.footer-icons {
+  font-size: 3em;
+}
+
+#footer .footer-icons a {
+  color: #205dadcc;
+  text-decoration: none;
+}
+
+#footer .footer-icons a:hover {
+  color: #F1D302;
+}
+
+/* media */
+@media screen and (max-width:576px) {
+  .box{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
